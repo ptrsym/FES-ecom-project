@@ -87,12 +87,19 @@ NAV BAR
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  background-color: #ececec;
+  
 }
 
 nav {
   height: 80px;
   display: flex;
+  background-color: #ececec;
+}
+
+.line {
+  background-color: #ccc;
+  height: 1px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav__link {
@@ -175,11 +182,6 @@ nav {
   color: #fff;
 }
 
-.line {
-    background-color: #ccc;
-    height: 1px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
 
 /* 
 
